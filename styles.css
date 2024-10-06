@@ -1,0 +1,90 @@
+.container {
+  width: 330px;
+  height: 367px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.checkbox {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px #191919 solid;
+}
+
+.checkbox:nth-child(1) {
+  left: 37px;
+  top: 103px;
+}
+
+.checkbox:nth-child(2) {
+  left: 37px;
+  top: 149px;
+}
+
+.checkbox:nth-child(3) {
+  left: 37px;
+  top: 195px;
+}
+
+.checkbox:nth-child(4) {
+  left: 37px;
+  top: 241px;
+}
+
+.input-field {
+  width: 194px;
+  height: 28px;
+  position: absolute;
+  left: 37px;
+  top: 306px;
+  border-radius: 4px;
+  border: 1px #191919 solid;
+}
+
+.add-button {
+  width: 55px;
+  height: 28px;
+  position: absolute;
+  left: 238px;
+  top: 306px;
+  background: #191919;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator {
+  width: 189px;
+  height: 0;
+  position: absolute;
+  border: 1px black solid;
+}
+
+.separator:nth-child(1) {
+  left: 80px;
+  top: 130px;
+}
+
+.separator:nth-child(2) {
+  left: 80px;
+  top: 176px;
+}
+
+.separator:nth-child(3) {
+  left: 80px;
+  top: 222px;
+}
+
+.separator:nth-child(4) {
+  left: 80px;
+  top: 268px;
+}
